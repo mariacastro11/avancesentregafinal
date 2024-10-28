@@ -1,4 +1,4 @@
-
+// este archivo se encarga de crear la clase Shoe que se utilizará en los otros archivos para mostrar los productos en la página principal
 class Shoe {
 
     constructor(id, name, price, color, description, img){

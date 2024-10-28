@@ -1,4 +1,4 @@
-
+// Este archivo contiene la información de los productos que se mostrarán en la página de la tienda. Cada producto tiene un id, nombre, precio, color, descripción e imagen. Puedes agregar más productos siguiendo la misma estructura.
 const shoes = [
 
     {

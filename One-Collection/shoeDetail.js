@@ -1,3 +1,5 @@
+// este archivo es el encargado de mostrar los productos cuando son seleccionados en la página principal
+
 const params = new URLSearchParams(window.location.search)
 const idFromUrl = params.get('id')
 

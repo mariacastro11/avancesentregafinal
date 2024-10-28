@@ -1,3 +1,5 @@
+// este archivo es el encargado de mostrar los productos en la página principal
+
 let container = document.getElementById("productos")
 let listOfShoes = []
 
