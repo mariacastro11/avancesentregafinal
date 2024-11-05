@@ -16,22 +16,27 @@
                 <div class="left-space">
                     <h1>one collection.</h1>
                 </div>
-                <div class="right-space">
-                    <label class="title">Create new Account</label>
-                    <a href="./LogIn.html">
-                        <label class="link" >Already registered? Login</label>
-                    </a>
-                    <label class="guide">PLEASE ENTER YOUR NAME</label>
-                    <input type="text">
-                    <label class="guide">PLEASE ENTER YOUR EMAIL</label>
-                    <input type="email">
-                    <label class="guide">PLEASE ENTER YOUR PASSWORD</label>
-                    <input type="password">
-                    <label class="guide">PLEASE ENTER YOUR DATE OF BIRTH</label>
-                    <input type="date">
-                    <button type="submit">Sing Up</button>
+
+                <div class="rigth">
+                    <form id="formRegister">
+                        <label class="title">Create new Account</label>
+                        <a href="./LogIn.html">
+                            <label class="link" >Already registered? Login</label>
+                        </a>
+                        <label class="guide">PLEASE ENTER YOUR NAME</label>
+                        <input id="userName" type="text">
+                        <label class="guide">PLEASE ENTER YOUR EMAIL</label>
+                        <input id="email" type="email">
+                        <label class="guide">PLEASE ENTER YOUR PASSWORD</label>
+                        <input id="password" type="password">
+                        <label class="guide">PLEASE ENTER YOUR DATE OF BIRTH</label>
+                        <input type="date">
+                        <button type="submit">Sing Up</button>
+                    </form>
                 </div>
+
             </div>
         </main>
     </body>
+    <script src="./func/Regsiter.js" type="module"></script>
 </html>
